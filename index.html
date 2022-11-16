@@ -1,82 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <title>Minecraft Overviewer</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="generator" content="Minecraft-Overviewer 0.19.9 (6ffbe0f)" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <script type="text/javascript" src="overviewerConfig.js"></script>
+    <script type="text/javascript" src="overviewer.js"></script>
+    <script type="text/javascript" src="baseMarkers.js"></script>
 
-    <title>Xenoth.github.io</title>
-</head>
-<body>
-      <header class="jumbotron">
-        <div class="container">
-            <h1 class="text-center"><a href="https://github.com/Xenoth">Xenoth</a> Github <img src="images/19880632.png" class = "img-circle"></h1>
-        </div>
-    </header>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <link rel="stylesheet" href="overviewer.css" type="text/css" />
+  </head>
 
-    <main>
-        <div class = "container">
-            <h2 class = "bg-info">About</h2>
-            <p class = "lead">This GitHub contains many projects made by <a href="https://github.com/Xenoth">Xenoth</a> (Pol Bailleux)</p>
-            <p><ins>Documentation will come as soon as possible... Stay turned !</ins></p>
-        </div>
-        <div class = "container">
-
-            <h2 class = "bg-info">Personal</h2>
-            <div class = "container">
-                <h3>Robot</h3>
-                <p>Arduino hardware and software project</p>
-                <img src="images/robot.png" class="img-rounded">
-                <a href="https://github.com/Xenoth/Robot"><button type="button" class="btn btn-link">Robot.git</button></a>
-            </div>
-
-            <div class = "container">
-                <h3>Clockuino</h3>
-                <p>A Clock for the Gamebuino console</p>
-                <img src="images/clockuino.jpeg" class="img-rounded">
-                <a href="https://github.com/Xenoth/Clockuino"><button type="button" class="btn btn-link">Clockuino.git</button></a>
-            </div>
-
-            <div class = "container">
-                <h3>libraries</h3>
-                <p>Many C++ classes to controll few modules on Arduino</p>
-                <a href="https://github.com/Xenoth/libraries"><button type="button" class="btn btn-link">libraries.git</button></a>
-            </div>
-        </div>
-
-        <div class = "container">
-            <h2 class = "bg-info">University</h2>
-            <div class = "container">
-                <h3>Rampart</h3>
-                <p>A 2D Strategy game powered by C++ and SFML</p> <img src="images/Rampart.png" class="img-circle">
-                <a href="https://github.com/Xenoth/Rampart"><button type="button" class="btn btn-link">Rampart.git</button></a>
-                <ul>
-                    <li>Windows release : <a href="https://github.com/Xenoth/Rampart/archive/windows-release-v1.0.zip">Download</a></li>
-                    <li>Linux release : <a href="https://github.com/Xenoth/Rampart/archive/linux-release-v1.0.zip">Download</a></li>
-                </ul>
-            </div>
-
-            <div class = "container">
-                <h3>biblialgo</h3>
-                <p>Library for String, Linked List, Array and Tree data structures in C</p>
-                <img src="images/biblialgo.png" class="img-rounded">
-                <a href="https://github.com/Xenoth/biblialgo"><button type="button" class="btn btn-link">biblialgo.git</button></a>
-            </div>
-
-            <div class = "container">
-                <h3>Cuiteur</h3>
-                <p>A Twitter like project using PHP, HTML CSS and mySQL</p>
-                <img src="images/speaker.png" class="img-rounded">
-                <a href="https://github.com/Xenoth/cuiteur"><button type="button" class="btn btn-link">cuiteur.git</button></a>
-            </div>
-        </div>
-    </main>
-</body>
-<footer class = "bg-info">
-    <p class = "text-center">Copyright &copy; Pol Bailleux - IT Student at Université de Franche Comté</p>
-</footer>
-
+  <!-- Generated at: Wed, 16 Nov 2022 23:26:00 CET -->
+  <body onload="overviewer.util.initialize()">
+    <noscript style="color: white; background-color: black">
+      If you can see this message, there is likely a problem loading the
+      Overviewer JavaScript components. Check the JavaScript console for error
+      messages.
+    </noscript>
+    <div id="mcmap"></div>
+  </body>
 </html>
