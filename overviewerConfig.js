@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "survival - overworld",
+        "survival - nether"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1668637560",
+        "cacheTag": "1668677680",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +42,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "Xenoth's Realm Daytime",
             "zoomLevels": 8,
             "defaultZoom": 1,
             "maxZoom": 8,
-            "path": "world-lighting",
+            "path": "survivalday",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
+            "world": "survival - overworld",
             "last_rendertime": 1668633606,
             "imgextension": "png",
             "isOverlay": false,
@@ -66,6 +67,82 @@ var overviewerConfig = {
                 144,
                 -573
             ],
+            "north_direction": 0
+        },
+        {
+            "name": "Xenoth's Realm Nighttime",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "survivalnight",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "survival - overworld",
+            "last_rendertime": 1668633606,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                112,
+                144,
+                -573
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": [
+                112,
+                144,
+                -573
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Xenoth's Realm Nether",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "survivalnether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "survival - nether",
+            "last_rendertime": 1668618857,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                112,
+                144,
+                -573
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "Xenoth's Realm Nether",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "survivalnethersouth",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "survival - nether",
+            "last_rendertime": 1668618857,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                112,
+                144,
+                -573
+            ],
+            "lastrenderversion": 2,
+            "minZoom": 0,
+            "spawn": false,
             "north_direction": 0
         }
     ]
